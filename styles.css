@@ -1153,3 +1153,17 @@ nav a:hover {
         margin-top: 30px;
     }
 }
+
+body {
+    cursor: none; /* Hide the default cursor */
+}
+.custom-cursor {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+}
+.custom-cursor svg {
+    width: 54px; /* Adjusted size */
+    height: auto;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}

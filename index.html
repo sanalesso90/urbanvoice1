@@ -5,8 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urban Voice</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+    <!-- Custom cursor HTML -->
+    <div class="custom-cursor">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 100">
+            <defs>
+                <linearGradient id="flag-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.2"/>
+                    <stop offset="100%" style="stop-color:#000000;stop-opacity:0.2"/>
+                </linearGradient>
+            </defs>
+            <rect width="190" height="100" fill="#BF0A30"/>
+            <g fill="#FFFFFF">
+                <rect width="190" height="7.69" y="7.69"/>
+                <rect width="190" height="7.69" y="23.07"/>
+                <rect width="190" height="7.69" y="38.45"/>
+                <rect width="190" height="7.69" y="53.83"/>
+                <rect width="190" height="7.69" y="69.21"/>
+                <rect width="190" height="7.69" y="84.59"/>
+            </g>
+            <rect width="76" height="53.85" fill="#002868"/>
+            <g fill="#FFFFFF">
+                <circle cx="12.67" cy="8.97" r="3.5"/>
+                <circle cx="25.33" cy="8.97" r="3.5"/>
+                <circle cx="38" cy="8.97" r="3.5"/>
+                <circle cx="50.67" cy="8.97" r="3.5"/>
+                <circle cx="63.33" cy="8.97" r="3.5"/>
+                <circle cx="19" cy="17.95" r="3.5"/>
+                <circle cx="31.67" cy="17.95" r="3.5"/>
+                <circle cx="44.33" cy="17.95" r="3.5"/>
+                <circle cx="57" cy="17.95" r="3.5"/>
+                <circle cx="12.67" cy="26.92" r="3.5"/>
+                <circle cx="25.33" cy="26.92" r="3.5"/>
+                <circle cx="38" cy="26.92" r="3.5"/>
+                <circle cx="50.67" cy="26.92" r="3.5"/>
+                <circle cx="63.33" cy="26.92" r="3.5"/>
+                <circle cx="19" cy="35.9" r="3.5"/>
+                <circle cx="31.67" cy="35.9" r="3.5"/>
+                <circle cx="44.33" cy="35.9" r="3.5"/>
+                <circle cx="57" cy="35.9" r="3.5"/>
+                <circle cx="12.67" cy="44.87" r="3.5"/>
+                <circle cx="25.33" cy="44.87" r="3.5"/>
+                <circle cx="38" cy="44.87" r="3.5"/>
+                <circle cx="50.67" cy="44.87" r="3.5"/>
+                <circle cx="63.33" cy="44.87" r="3.5"/>
+            </g>
+            <rect width="190" height="100" fill="url(#flag-gradient)"/>
+        </svg>
+    </div>
+
     <nav>
         <div class="left">
           <a href="#home" data-replace="Home"><span>Home</span></a>
@@ -110,121 +159,121 @@
       </section>
 
       <!-- Interview Section -->
-<section class="interview-section">
-  <div class="container">
-      <h2>Exclusive Interviews</h2>
-      <div class="slider-container">
-          <div class="shadow-mask shadow-mask-left"></div>
-          <div class="shadow-mask shadow-mask-right"></div>
-          <div class="slider" id="interviewSlider">
-              <div class="slide">
-                  <img src="./img/video1.webp" alt="Interview 1" data-video="./video/video1.mp4">
-                  <div class="slide-content">
-                      <div class="slide-title">Breaking News: Major Discovery</div>
-                      <div class="slide-author">By John Doe</div>
-                      <div class="slide-date">August 15, 2024</div>
+    <section class="interview-section">
+      <div class="container">
+          <h2>Exclusive Interviews</h2>
+          <div class="slider-container">
+              <div class="shadow-mask shadow-mask-left"></div>
+              <div class="shadow-mask shadow-mask-right"></div>
+              <div class="slider" id="interviewSlider">
+                  <div class="slide">
+                      <img src="./img/video1.webp" alt="Interview 1" data-video="./video/video1.mp4">
+                      <div class="slide-content">
+                          <div class="slide-title">Breaking News: Major Discovery</div>
+                          <div class="slide-author">By John Doe</div>
+                          <div class="slide-date">August 15, 2024</div>
+                      </div>
                   </div>
-              </div>
-              <div class="slide">
-                  <img src="./img/video2.webp" alt="Interview 2" data-video="./video/video2.mp4">
-                  <div class="slide-content">
-                      <div class="slide-title">Tech Revolution Unveiled</div>
-                      <div class="slide-author">By Jane Smith</div>
-                      <div class="slide-date">August 16, 2024</div>
+                  <div class="slide">
+                      <img src="./img/video2.webp" alt="Interview 2" data-video="./video/video2.mp4">
+                      <div class="slide-content">
+                          <div class="slide-title">Tech Revolution Unveiled</div>
+                          <div class="slide-author">By Jane Smith</div>
+                          <div class="slide-date">August 16, 2024</div>
+                      </div>
                   </div>
-              </div>
-              <div class="slide">
-                  <img src="./img/video4.webp" alt="Interview 3" data-video="./video/video3.mp4">
-                  <div class="slide-content">
-                      <div class="slide-title">Political Landscape Shifts</div>
-                      <div class="slide-author">By Sam Johnson</div>
-                      <div class="slide-date">August 17, 2024</div>
+                  <div class="slide">
+                      <img src="./img/video4.webp" alt="Interview 3" data-video="./video/video3.mp4">
+                      <div class="slide-content">
+                          <div class="slide-title">Political Landscape Shifts</div>
+                          <div class="slide-author">By Sam Johnson</div>
+                          <div class="slide-date">August 17, 2024</div>
+                      </div>
                   </div>
-              </div>
-              <div class="slide">
-                  <img src="./img/video3.webp" alt="Interview 4" data-video="./video/video4.mp4">
-                  <div class="slide-content">
-                      <div class="slide-title">Environmental Breakthrough</div>
-                      <div class="slide-author">By Emily Brown</div>
-                      <div class="slide-date">August 18, 2024</div>
+                  <div class="slide">
+                      <img src="./img/video3.webp" alt="Interview 4" data-video="./video/video4.mp4">
+                      <div class="slide-content">
+                          <div class="slide-title">Environmental Breakthrough</div>
+                          <div class="slide-author">By Emily Brown</div>
+                          <div class="slide-date">August 18, 2024</div>
+                      </div>
                   </div>
-              </div>
-              <div class="slide">
-                  <img src="./img/video5.webp" alt="Interview 5" data-video="./video/video1.mp4">
-                  <div class="slide-content">
-                      <div class="slide-title">Global Economy Update</div>
-                      <div class="slide-author">By Michael Lee</div>
-                      <div class="slide-date">August 19, 2024</div>
+                  <div class="slide">
+                      <img src="./img/video5.webp" alt="Interview 5" data-video="./video/video1.mp4">
+                      <div class="slide-content">
+                          <div class="slide-title">Global Economy Update</div>
+                          <div class="slide-author">By Michael Lee</div>
+                          <div class="slide-date">August 19, 2024</div>
+                      </div>
                   </div>
               </div>
           </div>
       </div>
-  </div>
-  
-  <div class="video-overlay" id="videoOverlay">
-      <div class="video-container">
-          <video id="videoPlayer"></video>
-          <div class="video-controls">
-              <button class="play-pause-btn" id="playPauseBtn">▶</button>
-              <div class="progress-bar">
-                  <div class="progress" id="progress"></div>
+      
+      <div class="video-overlay" id="videoOverlay">
+          <div class="video-container">
+              <video id="videoPlayer"></video>
+              <div class="video-controls">
+                  <button class="play-pause-btn" id="playPauseBtn">▶</button>
+                  <div class="progress-bar">
+                      <div class="progress" id="progress"></div>
+                  </div>
               </div>
+              <button class="close-btn" id="closeBtn">×</button>
           </div>
-          <button class="close-btn" id="closeBtn">×</button>
       </div>
-  </div>
-</section>
-<section class="pres-section">
-  <div class="pres-header">
-      <h1>Top Politicians in the USA</h1>
-      <p>Discover the most influential political figures shaping America's future.</p>
-  </div>
+    </section>
+    <section class="pres-section">
+      <div class="pres-header">
+          <h1>Top Politicians in the USA</h1>
+          <p>Discover the most influential political figures shaping America's future.</p>
+      </div>
 
-  <div class="pres-cards-section">
-      <div class="pres-card">
-          <img src="./img/biddden.jpg" alt="Politician 1">
-          <div class="pres-card-content">
-              <h2>Joe Biden</h2>
-              <p>Description of Politician 1</p>
+      <div class="pres-cards-section">
+          <div class="pres-card">
+              <img src="./img/biddden.jpg" alt="Politician 1">
+              <div class="pres-card-content">
+                  <h2>Joe Biden</h2>
+                  <p>Description of Politician 1</p>
+              </div>
           </div>
-      </div>
-      <div class="pres-card">
-          <img src="./img/news2.webp" alt="Politician 2">
-          <div class="pres-card-content">
-              <h2>Donald Trump</h2>
-              <p>Description of Politician 2</p>
+          <div class="pres-card">
+              <img src="./img/news2.webp" alt="Politician 2">
+              <div class="pres-card-content">
+                  <h2>Donald Trump</h2>
+                  <p>Description of Politician 2</p>
+              </div>
           </div>
-      </div>
-      <div class="pres-card">
-          <img src="./img/kamalla.jpg" alt="Politician 3">
-          <div class="pres-card-content">
-              <h2>Kamala Harris</h2>
-              <p>Description of Politician 3</p>
+          <div class="pres-card">
+              <img src="./img/kamalla.jpg" alt="Politician 3">
+              <div class="pres-card-content">
+                  <h2>Kamala Harris</h2>
+                  <p>Description of Politician 3</p>
+              </div>
           </div>
-      </div>
-      <div class="pres-card">
-          <img src="./img/barack.jpeg" alt="Politician 4">
-          <div class="pres-card-content">
-              <h2>Barack Obama</h2>
-              <p>Description of Politician 4</p>
+          <div class="pres-card">
+              <img src="./img/barack.jpeg" alt="Politician 4">
+              <div class="pres-card-content">
+                  <h2>Barack Obama</h2>
+                  <p>Description of Politician 4</p>
+              </div>
           </div>
-      </div>
-      <div class="pres-card">
-          <img src="./img/hillary.jpeg" alt="Politician 5">
-          <div class="pres-card-content">
-              <h2>Hillary Clinton</h2>
-              <p>Description of Politician 5</p>
+          <div class="pres-card">
+              <img src="./img/hillary.jpeg" alt="Politician 5">
+              <div class="pres-card-content">
+                  <h2>Hillary Clinton</h2>
+                  <p>Description of Politician 5</p>
+              </div>
           </div>
-      </div>
-      <div class="pres-card">
-          <img src="./img/BILLCLINTON.jpg" alt="Politician 6">
-          <div class="pres-card-content">
-              <h2>Bill Clinton</h2>
-              <p>Description of Politician 6</p>
+          <div class="pres-card">
+              <img src="./img/BILLCLINTON.jpg" alt="Politician 6">
+              <div class="pres-card-content">
+                  <h2>Bill Clinton</h2>
+                  <p>Description of Politician 6</p>
+              </div>
           </div>
+          <button class="pres-see-more-btn">See More</button>
       </div>
-      <button class="pres-see-more-btn">See More</button>
-  </div>
 </section>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
